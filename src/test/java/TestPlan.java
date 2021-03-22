@@ -15,7 +15,7 @@ public class TestPlan {
     }
 
     @Test(testName = "Second Link From The Yandex Response")
-    public static void submitForm() {
+    public static void test() {
         driver.get(Utils.BASE_URL);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
