@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.when;
 
 import static org.testng.Assert.assertTrue;
 
-public class restAssured {
+public class RestAssured {
 
 
     @Test(testName = "restAssured Test")
